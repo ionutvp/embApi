@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from sentence_transformers import SentenceTransformer
+#from sentence_transformers import SentenceTransformer
 from fastapi.middleware.cors import CORSMiddleware
 
 
@@ -16,7 +16,7 @@ app.add_middleware(
 )
 @app.get("/")
 def read_root():
-    model = SentenceTransformer('clip-ViT-B-32')
+ #   model = SentenceTransformer('clip-ViT-B-32')
     return {"Hello": "World"}
 
 
