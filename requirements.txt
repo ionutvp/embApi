@@ -1,4 +1,4 @@
 fastapi
 uvicorn[standard]
 delta
-#sentence_transformers
+gradio_client
